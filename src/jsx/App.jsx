@@ -28,7 +28,7 @@ class App extends Component {
     return (
       <div className={style.app}>
         <div className={style.image_container}><img src="img/mexican.gif" /></div>
-        <h3>HOMBRES AND AMIGORETTES!</h3>
+        <h3>HOMBRES AND AMIGO&shy;RETTES!</h3>
         <h1>FISH TACO NIGHT</h1>
         <div className={style.image_container}><img src="img/taco1.gif" /></div>
         <h3>VIVA This Friday!</h3>
