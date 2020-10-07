@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import style from './../styles/styles.less';
 
-import Typist from 'react-typist';
-
 class App extends Component {
   constructor(props) {
     super(props);
@@ -25,6 +23,7 @@ class App extends Component {
   // static getDerivedStateFromError(error) {}
   // componentDidCatch() {}
   render() {
+    const { width, height } = useWindowSize()
     return (
       <div className={style.app}>
         <div className={style.image_container}><img src="img/mexican.gif" /></div>
