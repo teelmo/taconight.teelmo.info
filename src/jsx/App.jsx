@@ -23,7 +23,6 @@ class App extends Component {
   // static getDerivedStateFromError(error) {}
   // componentDidCatch() {}
   render() {
-    const { width, height } = useWindowSize()
     return (
       <div className={style.app}>
         <div className={style.image_container}><img src="img/mexican.gif" /></div>
