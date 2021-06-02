@@ -34,7 +34,7 @@ class App extends Component {
         <div className={style.image_container}><img src="img/taco4.gif" /></div>
         <h3>VIVA This Saturday!</h3>
         <div className={style.image_container}><img src="img/taco3.jpg" /></div>
-        <h1>Vamos 19:30!</h1>
+        <h1>Vamos 18:29!</h1>
         <div className={style.image_container}><img src="img/taco2.gif" /></div>
       </div>
     );
