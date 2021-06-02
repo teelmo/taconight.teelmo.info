@@ -31,6 +31,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "@beyonk/google-fonts-webpack-plugin": "^1.4.2"
+    "@beyonk/google-fonts-webpack-plugin": "^1.4.2",
+    "react-confetti": "^6.0.0"
   }
 }
