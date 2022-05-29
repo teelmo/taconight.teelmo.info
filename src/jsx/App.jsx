@@ -41,11 +41,11 @@ class App extends Component {
           
       // Display the message when countdown is over
       if (timeleft < 0) {
-          clearInterval(myfunc);
-          document.getElementById('hours').innerHTML = '' 
-          document.getElementById('mins').innerHTML = ''
-          document.getElementById('secs').innerHTML = ''
-          document.getElementById('end').innerHTML = 'YOU ARE LATE!!';
+        clearInterval(myfunc);
+        document.getElementById('hours').innerHTML = '' 
+        document.getElementById('mins').innerHTML = ''
+        document.getElementById('secs').innerHTML = ''
+        document.getElementById('message').innerHTML = 'YOU ARE LATE OR PRESENT!!';
       }
     }, 1000);
   }
@@ -65,7 +65,7 @@ class App extends Component {
         <div className={style.image_container}><img src="img/taco4.gif" /></div>
         <h3>VIVA no mañana sino HOY!</h3>
         <div className={style.image_container}><img src="img/taco3.jpg" /></div>
-        <h1>You still have <span id="hours"></span><span id="mins"></span><span id="secs"></span><span id="end"></span> until the Montezuma's Revenge</h1>
+        <h1 id="message">You still have <span id="hours"></span><span id="mins"></span><span id="secs"></span> until the Montezuma's Revenge</h1>
         <div className={style.image_container}><img src="img/taco2.gif" /></div>
         <h3>Finnish world championship sideshow!</h3>
       </div>
